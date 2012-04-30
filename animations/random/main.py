@@ -22,6 +22,7 @@ if __name__ == "__main__":
     out = ColorsOut()
     pix_A = [(0.0,0.0,0.0)]*24
     pix_B = [(0.0,0.0,0.0)]*24
+	
     while True:
         pix_A = pix_B[:]
         for i in range(24):
