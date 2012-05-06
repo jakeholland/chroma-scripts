@@ -1,5 +1,4 @@
 import sys
-sys.path.append("./osc")
 from oscapi import ColorsOut
 import random
 import math
@@ -20,8 +19,8 @@ bgColor=(0.0,0.0,0.0)
 layout = [[bgColor for col in range(4)] for row in range(4)]
 out = FadeAnimation()
 out.start()
-rev_sleep_time = .5
-frame_sleep_time = 1
+rev_sleep_time = .2
+frame_sleep_time = .7
 
 
 def frame1():

@@ -1,5 +1,4 @@
 import sys
-sys.path.append("./osc")
 from oscapi import ColorsOut
 import random
 import math
@@ -23,7 +22,6 @@ def frame1():
     scale = random.randint(1,4)
     layout = [nice_pixels[0]]*24
     out.write(layout)
-	
     time.sleep(3*scale)
     layout = [nice_pixels[1]]*24
     out.write(layout)
